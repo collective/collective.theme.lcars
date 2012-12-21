@@ -97,8 +97,8 @@ padding: 1em;
 text-decoration: none;
 min-width: 3em;
 display: inline-block;
-border-right: 0.3em black solid;
-border-left: 0.3em black solid;
+border-right: 0.1em black solid;
+border-left: 0.2em black solid;
 
 }
 #nav a:hover, #nav li.selected a {background: #ff9900;}
