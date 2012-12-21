@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layers>
+ <layer
+    name="collective.theme.lcars"
+    interface="collective.theme.lcars.browser.interfaces.IThemeSpecific"
+    remove="True"
+    />
+</layers>

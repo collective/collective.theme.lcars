@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+ <skin-path name="*">
+  <layer name="collective_theme_lcars_images" remove="True" />
+  <layer name="collective_theme_lcars_templates" remove="True" />
+  <layer name="collective_theme_lcars_styles" remove="True" />
+  <layer name="collective_theme_lcars_javascripts" remove="True" />
+ </skin-path>
+
+</object>
