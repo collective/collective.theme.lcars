@@ -18,8 +18,8 @@ position:relative;
 
 /* Colors and fonts */
 body {
-background-color: #fff;
-color: #000000;
+background-color: #000;
+color: #fff;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 62.5%; /* with this 1em = 10px */
 }
@@ -34,10 +34,10 @@ p {line-height: 1.8em; margin: 0 0 1em 0;}
 width:auto;
 margin: 0 auto;
 max-width: 90%;
-font-size: 1.2em;}
+font-size: 1.4em;}
 #main {
-background:#fff;
-font-size: 1.3em;
+background:#000;
+font-size: 1.6em;
 padding: 1em 0;
 }
 
@@ -48,20 +48,48 @@ padding: 1em 0;
 /****************** HEADER ******************/
 
 /* logo */
-#logo {padding: 3% 1%; float: left; width: 50%;}
-#logo img {max-width:100%;}
-#logo a {display:block; width:100%;}
+#logo {
+padding:0; float: left; width: 20%;
+background: #205C90;
+
+overflow: hidden;
+position: relative;
+}
+#logo img {max-width:100%; padding-left: 10%;}
+#logo a {display:block; width:100%; padding:3% 1%; }
+#logo-swipe {
+background: #000000;
+width: 4em;
+/*float: right;*/
+border-radius: 0 0 0 3em;
+position: absolute;
+height: 100%;
+right: 0;
+}
+
 
 /* Personal tools */
-#portal-personaltools {font-size: 1.2em;}
+#portal-personaltools {
+font-size: 1.2em;
+border-radius: 0.8em;
+margin-bottom: 1em;
+margin-right: 5%;
+
+}
+
+
 
 /* Main navigation */
-#nav {background: #205C90;  }
+#nav {
+background: #205C90;
+border-radius: 0 0 0 4em;
+}
 #nav ul {;
 background: #205C90;
 color: #fff;
 font-size: 1.2em;
 border-bottom: 1px solid #FF9900;
+margin-left: 21%;
 }
 #nav a {
 color: #fff;
@@ -69,14 +97,23 @@ padding: 1em;
 text-decoration: none;
 min-width: 3em;
 display: inline-block;
+border-right: 0.3em black solid;
+border-left: 0.3em black solid;
+
 }
 #nav a:hover, #nav li.selected a {background: #ff9900;}
 
 
 /* Searchbox */
-#portal-searchbox {float: right; margin-top: 3.5%;}
+#portal-searchbox {float: right; margin-top: 0;}
 #portal-searchbox #searchGadget {border: 1px solid #F1F1F1;padding: 0.1em;}
+#searchGadget {border-radius: 0.6em 0 0 0.6em;}
 #searchGadget, #header input.searchButton {padding: 0.1em 0.2em;}
+#portal-searchbox input.searchButton {border-radius: 0 0.6em 0.6em 0;
+margin-left: 0.5em;
+background: #F90 url(search-ico.png) no-repeat center center;
+border: 1px solid #F90;
+color: transparent}
 #LSResult {z-index:1; margin-top: 0.5%;}
 
 
