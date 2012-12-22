@@ -23,6 +23,16 @@
 	<copy attributes="role" css:content="content" css:theme="contentspace" />
     <replace css:content="#portal-columns" css:theme="#content" />
     
+    <!-- copy site title in place of logo theme -->
+    <copy attributes="href" css:theme="#site-title a" css:content="#portal-logo" />
+	<replace css:theme-children="span#site-title a">
+		<xsl:for-each css:select="a#portal-logo">
+		  <xsl:value-of select="@title" />
+		</xsl:for-each>
+	</replace>
+    
+    
+    
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />    
     <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
