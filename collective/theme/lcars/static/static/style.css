@@ -71,7 +71,7 @@ right: 0;
 font-size: 2.5em;
 font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
 font-weight: bold;
-margin-left: 5%;
+margin-left: 0em;
 padding: 1em;
 }
 
@@ -79,12 +79,14 @@ padding: 1em;
 /* Personal tools */
 #portal-personaltools {
 font-size: 1.2em;
-border-radius: 0.8em;
+border-radius: 0.7em;
 margin-bottom: 1em;
 margin-right: 5%;
 }
 
-
+dl.actionMenu.activated dd  {
+border-radius: .7em;
+}
 
 /* Main navigation */
 #nav {
@@ -95,7 +97,6 @@ border-radius: 0 0 0 4em;
 background: #205C90;
 color: #fff;
 font-size: 1.2em;
-border-bottom: 1px solid #FF9900;
 margin-left: 21%;
 }
 #nav a {
@@ -154,6 +155,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 
 /* Site Actions */
 #portal-siteactions {text-align: left; display:inline;}
+
+/******* Overlays  ******/
+div.pb-ajax {
+border-radius: 2em;
+}
 
 
 /****************** RESPONSIVE DESIGN MAGIC ******************/
@@ -239,9 +245,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 @media screen and (max-width: 480px) {
 
     #portal-breadcrumbs {display:none;}
-	#site-title {
-	font-size: 1.5em;
-	}
+    #site-title {
+    font-size: 1.5em;
+    }
     #portal-searchbox {
         float: none;
         width:80%;
