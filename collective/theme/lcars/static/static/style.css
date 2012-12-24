@@ -154,7 +154,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 #footer {clear: left; padding: 1em 2em;}
 
 /* Site Actions */
-#portal-siteactions {text-align: left; display:inline;}
+#portal-siteactions {
+
+text-align: right;
+display:inline-block;
+background-color: #ff9900;
+border-radius: 1.5em;
+width: 95%;
+padding: 1em;
+padding-right: 5em;
+/*margin-right: 3em;*/
+}
 
 /******* Overlays  ******/
 div.pb-ajax {

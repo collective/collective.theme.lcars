@@ -39,8 +39,10 @@
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
-    <replace css:content-children="#portal-footer" css:theme="#footer-info" />
-    <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />
+    <!-- footer -->
+    <replace css:content="#portal-footer" css:theme="#portal-footer" />
+    <!--replace css:content="#portal-colophon" css:theme="#portal-colophon" /-->
+    <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" />
     <after css:content="#portal-languageselector" css:theme="#logo" />
 
     <!--Portlets-->
