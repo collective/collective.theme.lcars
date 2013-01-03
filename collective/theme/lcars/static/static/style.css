@@ -154,17 +154,34 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 #footer {clear: left; padding: 1em 2em;}
 
 /* Site Actions */
-#portal-siteactions {
 
-text-align: right;
-display:inline-block;
+#portal-siteactions-wrapper {
 background-color: #ff9900;
 border-radius: 1.5em;
-width: 95%;
-padding: 1em;
-padding-right: 5em;
-/*margin-right: 3em;*/
 }
+
+#portal-siteactions {
+text-align: right;
+padding-bottom: 0;
+padding-right: 3em;
+}
+
+#portal-siteactions li:last-child a {
+border-right: solid black 1em;
+}
+
+
+#portal-siteactions a {
+padding: .5em 1em .5em 1em;
+display: inline-block;
+border-left: solid black 1em;
+color: white;
+}
+
+#portal-siteactions li a:hover {
+color: black;
+}
+
 
 /******* Overlays  ******/
 div.pb-ajax {
