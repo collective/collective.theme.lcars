@@ -261,11 +261,28 @@ border-left: solid 1em #F90;
 #footer a:hover {color: #f1f1f1 !important;}
 #footer {clear: left; padding: 1em 2em;}
 
+
+#portal-footer {
+font-size: 75%;
+background: #DDD;
+padding: 0em 5em;
+margin: 1em 0;
+line-height: 2em;
+border-radius: 3em;
+}
+#portal-footer p {
+padding: 1em;
+border-left: solid 1em black;
+text-align: center;
+}
+
+
 /* Site Actions */
 
 #portal-siteactions-wrapper {
 background-color: #ff9900;
 border-radius: 1.5em;
+margin-bottom: 2em;
 }
 
 #portal-siteactions {
