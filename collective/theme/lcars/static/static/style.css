@@ -269,13 +269,16 @@ padding: 0em 5em;
 margin: 1em 0;
 line-height: 2em;
 border-radius: 3em;
+color: black;
 }
 #portal-footer p {
 padding: 1em;
 border-left: solid 1em black;
 text-align: center;
 }
-
+#portal-colophon a {
+color: #DDD;
+}
 
 /* Site Actions */
 
