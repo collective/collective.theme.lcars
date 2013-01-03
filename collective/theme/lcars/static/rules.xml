@@ -21,9 +21,9 @@
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
     <copy attributes="role" css:content="content" css:theme="contentspace" />
-    <!-- Move breadcrumbs before content -->
+    <!-- Move breadcrumbs before content
     <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs"  method="raw"/>
-    <drop css:content="#portal-breadcrumbs" />
+    <drop css:content="#portal-breadcrumbs" /> -->
     <!-- replace main content -->
     <replace css:content="#portal-columns" css:theme="#content" />
     <!-- copy site title into the sweep -->
