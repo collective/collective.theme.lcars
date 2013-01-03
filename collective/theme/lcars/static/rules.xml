@@ -26,6 +26,8 @@
     <drop css:content="#portal-breadcrumbs" /> -->
     <!-- replace main content -->
     <replace css:content="#portal-columns" css:theme="#content" />
+
+
     <!-- copy site title into the sweep -->
     <copy attributes="href" css:theme="#site-title a" css:content="#portal-logo" />
     <replace css:theme-children="span#site-title a">

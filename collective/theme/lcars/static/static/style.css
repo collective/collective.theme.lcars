@@ -37,13 +37,11 @@ max-width: 90%;
 font-size: 1.4em;}
 
 #main {
-/*background:#f90;*/
 background-image: -o-linear-gradient(left , rgb(255,153,0) 50%, rgb(18,18,18) 50%, rgb(32,92,144) 50%);
 background-image: -moz-linear-gradient(left , rgb(255,153,0) 50%, rgb(18,18,18) 50%, rgb(32,92,144) 50%);
 background-image: -webkit-linear-gradient(left , rgb(255,153,0) 50%, rgb(18,18,18) 50%, rgb(32,92,144) 50%);
 background-image: -ms-linear-gradient(left , rgb(255,153,0) 50%, rgb(18,18,18) 50%, rgb(32,92,144) 50%);
 background-image: linear-gradient(left , rgb(255,153,0) 50%, rgb(18,18,18) 50%, rgb(32,92,144) 50%);
-
 
 font-size: 1.6em;
 padding: 0 0;
@@ -52,6 +50,7 @@ border-top: solid 1.5em #ff9900;
 border-right: solid 2em #205C90;
 border-bottom: solid 2em #205C90;
 border-radius: 2em 0 2em 0;
+margin-top: 0.4em;
 }
 
 /* fix cover overlay, you can remove this lines if you dont use collective cover */
@@ -201,13 +200,58 @@ border: solid black 1em;
 background-color: black;
 }
 
-/*#portal-column-one {
-background-color: #ff9900;
+
+#portal-column-one {
+padding-top: 2em;
+background-color: #F90;
 }
 
 #portal-column-two {
-background-color: #ff9900;
-}*/
+padding-top: 2em;
+background-color: #205C90;
+border: #205C90 solid .5em;
+}
+
+div.position-3\:4 {
+margin-left: -25.1%;
+}
+
+div.position-0 {
+margin-left: -100%;
+}
+
+div.width-1\:4 {
+width: 25%;
+}
+
+div.width-3\:4 {
+width: 70.75%;
+}
+
+div.width-1\:2 {
+width: 44.5%;
+}
+
+#main-tr {
+margin-top: -1.5em;
+background: black;
+height: 1.5em;
+width: 2.3em;
+float: right;
+margin-right: -2em;
+border: black solid 1px;
+border-top: #F90 solid .5em;
+border-left: none;
+}
+#main-bl{
+background: black;
+height: .2em;
+width: .3em;
+float: left;
+margin-left: -2em;
+padding-top: 1.8em;
+border-left: solid 1em #F90;
+}
 
 /****************** FOOTER ******************/
 
