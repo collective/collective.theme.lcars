@@ -189,8 +189,6 @@ margin-left: 15%;
 
 /**** main contents ***/
 #portal-columns {
-/*border-radius: 1em 0 1em 0;
-border: solid white 1em;*/
 margin: -1em 0 -1em -1em;
 }
 
@@ -205,6 +203,9 @@ background-color: black;
 padding-top: 2em;
 background-color: #F90;
 }
+
+
+
 
 #portal-column-two {
 padding-top: 2em;
@@ -232,25 +233,31 @@ div.width-1\:2 {
 width: 44.5%;
 }
 
+/* make the two colored corners invisible*/
+
 #main-tr {
 margin-top: -1.5em;
 background: black;
-height: 1.5em;
-width: 2.3em;
+height: .5em;
+width: 2em;
 float: right;
 margin-right: -2em;
-border: black solid 1px;
-border-top: #F90 solid .5em;
-border-left: none;
+}
+#main-trb {
+margin-top: -1em;
+background: #205C90;
+height: 1em;
+width: 3em;
+float: right;
+margin-right: -1.9em;
 }
 #main-bl{
 background: black;
-height: .2em;
-width: .3em;
+height: 1em;
+width: 1em;
 float: left;
 margin-left: -2em;
-padding-top: 1.8em;
-border-left: solid 1em #F90;
+margin-top: 1em;
 }
 
 /****************** FOOTER ******************/
