@@ -6,14 +6,6 @@ Simples Consultoria - www.simplesconsultoria.com.br
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
 
-/* Background images - Remove this lines for a clean layout */
-/*body {background: url(bg.jpg) top repeat-x;}
-#header {
-background: transparent url(header.png) top center no-repeat;
-background-size: 100% auto;
-position:relative;
-}*/
-
 /****************** Basic Stuff ******************/
 
 /* Colors and fonts */
@@ -54,8 +46,17 @@ margin-top: 0.4em;
 }
 
 /* fix cover overlay, you can remove this lines if you dont use collective cover */
-#exposeMask {z-index: 0 !important;}
-.close {opacity: 0.6; text-indent: -10000px;}
+/*#exposeMask {z-index: 0 !important;}
+.close {opacity: 0.6; text-indent: -10000px;}*/
+
+/* input buttons and text */
+input {
+border-radius: .7em;
+margin: 0 .3em;
+padding: 0 .8em;
+border-style: none;
+}
+
 
 /****************** HEADER ******************/
 
