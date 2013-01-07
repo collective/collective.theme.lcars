@@ -24,7 +24,9 @@
     <!-- Move breadcrumbs before content
     <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs"  method="raw"/>
     <drop css:content="#portal-breadcrumbs" /> -->
+
     <!-- replace main content -->
+
     <replace css:content="#portal-columns" css:theme="#content" />
 
 

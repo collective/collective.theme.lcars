@@ -205,8 +205,18 @@ padding-top: 2em;
 background-color: #F90;
 }
 
-
-
+/*
+#portal-column-one:after {
+   content:"hi there";
+   position:absolute;
+   z-index:-1;
+   top:0;
+   right:0;
+   bottom:0;
+   left:33.333%;
+   background:#f9b6ff;
+}
+*/
 
 #portal-column-two {
 padding-top: 2em;
