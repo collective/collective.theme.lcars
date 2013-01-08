@@ -15,13 +15,20 @@ color: #fff;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 62.5%; /* with this 1em = 10px */
 }
-a:link, #content a:link, dl.portlet a:link {color:#205C90;}
-#content a:visited, dl.portlet a:visited {color: #266DAB;}
-#content a:hover, dl.portlet a:hover {color: #12304D !important;}
-h1 {color: #205C90;}
-h2, h3, h4, h5, h6 {color: #636363;}
+
+
+a:link, #content a:link, dl.portlet a:link {color:#BACFE2;}
+#content a:visited, dl.portlet a:visited {color: #BAAEC9;}
+#content a:hover, dl.portlet a:hover {color: #ddddff !important;}
+h1 {color: #B7D1E7;}
+h2, h3, h4, h5, h6 {color: #BBB;}
 h1, h2, h3 {margin: 0.5em 0 0.5em;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
+#content .documentDescription, #content #description {color: #EEE;}
+#content .discreet, #sidebar .discreet {color: #CCC;}
+
+.formHelp {color: #999;}
+
 #wrapper {
 width:auto;
 margin: 0 auto;
@@ -51,10 +58,16 @@ margin-top: 0.4em;
 
 /* input buttons and text */
 input {
-border-radius: .7em;
+border-radius: .8em;
 margin: 0 .3em;
-padding: 0 .8em;
+padding: .2em .8em;
 border-style: none;
+}
+
+select {
+border-radius: .8em;
+padding: .2em .8em;
+background-color: #DDD;
 }
 
 
@@ -118,10 +131,12 @@ padding: 1em;
 text-decoration: none;
 min-width: 3em;
 display: inline-block;
-border-right: 0.1em black solid;
-border-left: 0.2em black solid;
-
+border-left: 0.4em black solid;
 }
+#nav li:last-child a {
+border-right: 0.4em black solid;
+}
+
 #nav a:hover, #nav li.selected a {background: #ff9900;}
 
 
@@ -157,8 +172,10 @@ margin-bottom: 0.25em;
 #content ol li, dl.portlet ol li {list-style: decimal outside;}
 dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 
-/* BREADCRUMBS
+/* BREADCRUMBS */
+#portal-breadcrumbs a {color: #BACFE2;}
 
+/*
 #portal-breadcrumbs {
 font-size: 80%;
 margin-bottom: 0;
@@ -225,7 +242,7 @@ border: #205C90 solid .5em;
 }
 
 div.position-3\:4 {
-margin-left: -25.1%;
+margin-left: -25.5%;
 }
 
 div.position-0 {
@@ -294,6 +311,11 @@ padding: 1em;
 border-left: solid 1em black;
 text-align: center;
 }
+
+#portal-footer a, a:visited {
+color: #205C90;
+}
+
 #portal-colophon a {
 color: #DDD;
 }
