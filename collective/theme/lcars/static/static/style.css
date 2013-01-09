@@ -70,6 +70,10 @@ padding: .2em .8em;
 background-color: #DDD;
 }
 
+textarea {
+border-radius: 1em;
+padding: .5em;
+}
 
 /****************** HEADER ******************/
 
@@ -100,6 +104,7 @@ font-weight: bold;
 margin-left: 0em;
 padding: 1em;
 }
+
 
 
 /* Personal tools */
@@ -320,6 +325,12 @@ color: #205C90;
 color: #DDD;
 }
 
+/* menues */
+.actionMenu a {
+color: #000;
+}
+
+
 /* Site Actions */
 
 #portal-siteactions-wrapper {
@@ -354,6 +365,7 @@ color: black;
 /******* Overlays  ******/
 div.pb-ajax {
 border-radius: 2em;
+background-color: #555555;
 }
 
 
